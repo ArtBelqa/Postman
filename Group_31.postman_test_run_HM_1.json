@@ -1,0 +1,172 @@
+{
+	"id": "4b79da6a-1347-46e0-9baf-850009ae9bae",
+	"name": "Group_31",
+	"timestamp": "2022-10-28T07:25:28.988Z",
+	"collection_id": "21673985-17fb9bbd-672e-44d8-9e17-0b4f1c78b32f",
+	"folder_id": "21673985-cd810967-2170-4f07-aa3e-168984c103a3",
+	"environment_id": "0",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "4ad10a45-c0db-46bf-86ea-a9f367f288d5",
+			"name": "EP_1",
+			"url": "http://162.55.220.72:5005/get_method?name=Artem&age=27",
+			"time": 420,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				420
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "0c642a99-aa8e-445f-bc91-944dc4b392ca",
+			"name": "EP_2",
+			"url": "http://162.55.220.72:5005/user_info_3",
+			"time": 418,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				418
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "99adbbf0-3cd4-42c5-b168-ffbdc7d4a7c4",
+			"name": "EP_3",
+			"url": "http://162.55.220.72:5005/object_info_1?name=Artem&age=27&weight=85",
+			"time": 417,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				417
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "de689fce-e09d-40bf-a7b3-6648a6da9814",
+			"name": "EP_4",
+			"url": "http://162.55.220.72:5005/object_info_2?name=Artem&age=27&salary=1000",
+			"time": 434,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				434
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "9f8f4370-506e-46b6-9a3e-b5f4da811851",
+			"name": "EP_5",
+			"url": "http://162.55.220.72:5005/object_info_3?name=Artem&age=27&salary=1000",
+			"time": 463,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				463
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "eb987cb0-cc3f-4d9a-ac92-56234a0269c2",
+			"name": "EP_6",
+			"url": "http://162.55.220.72:5005/object_info_4?name=Artem&age=27&salary=1000",
+			"time": 433,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				433
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "38c8d743-057a-4a4f-879a-506e4779cc2b",
+			"name": "EP_7",
+			"url": "http://162.55.220.72:5005/user_info_2",
+			"time": 443,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				443
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 3028,
+	"collection": {
+		"requests": [
+			{
+				"id": "4ad10a45-c0db-46bf-86ea-a9f367f288d5",
+				"method": "GET"
+			},
+			{
+				"id": "0c642a99-aa8e-445f-bc91-944dc4b392ca",
+				"method": "POST"
+			},
+			{
+				"id": "99adbbf0-3cd4-42c5-b168-ffbdc7d4a7c4",
+				"method": "GET"
+			},
+			{
+				"id": "de689fce-e09d-40bf-a7b3-6648a6da9814",
+				"method": "GET"
+			},
+			{
+				"id": "9f8f4370-506e-46b6-9a3e-b5f4da811851",
+				"method": "GET"
+			},
+			{
+				"id": "eb987cb0-cc3f-4d9a-ac92-56234a0269c2",
+				"method": "GET"
+			},
+			{
+				"id": "38c8d743-057a-4a4f-879a-506e4779cc2b",
+				"method": "POST"
+			}
+		]
+	}
+}
